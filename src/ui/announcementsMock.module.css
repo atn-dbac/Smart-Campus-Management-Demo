@@ -1,0 +1,19 @@
+.wrap{display:grid;gap:12px}
+.headerRow{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+.kicker{font-size:12px;color:rgba(232,238,252,.65);font-weight:800;letter-spacing:.2px;text-transform:uppercase}
+.title{font-size:18px;font-weight:900;margin-top:4px}
+.searchWrap{display:flex;align-items:center}
+.search{width:320px;max-width:100%;padding:12px 12px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.04);color:#e8eefc;outline:none}
+.search::placeholder{color:rgba(232,238,252,.55)}
+.list{display:grid;gap:10px}
+.item{padding:14px;border-radius:16px;border:1px solid rgba(255,255,255,.10);background:rgba(0,0,0,.18);display:grid;gap:10px}
+.topRow{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.itemTitle{font-weight:950}
+.pri{padding:6px 10px;border-radius:999px;border:1px solid transparent;font-size:12px;font-weight:900}
+.body{color:rgba(232,238,252,.78);line-height:1.4}
+.bottomRow{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.date{color:rgba(232,238,252,.65);font-weight:800}
+.linkBtn{padding:9px 12px;border-radius:12px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.05);color:rgba(232,238,252,.9);font-weight:900;cursor:pointer}
+.linkBtn:hover{background:rgba(255,255,255,.08)}
+@media (max-width:720px){.headerRow{flex-direction:column}.search{width:100%}}
+

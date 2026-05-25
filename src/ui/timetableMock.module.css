@@ -1,0 +1,15 @@
+.wrap{display:grid;gap:12px}
+.tabs{display:flex;gap:8px;flex-wrap:wrap}
+.tab{padding:10px 12px;border-radius:999px;border:1px solid rgba(255,255,255,.10);background:rgba(255,255,255,.04);color:rgba(232,238,252,.82);cursor:pointer}
+.tab:hover{background:rgba(255,255,255,.07)}
+.tabActive{background:linear-gradient(135deg,rgba(61,214,255,.18),rgba(108,76,255,.18));border-color:rgba(61,214,255,.35);color:#f4f7ff}
+.list{display:grid;gap:10px}
+.slot{display:grid;grid-template-columns:190px 1fr;gap:12px;align-items:start;padding:14px;border-radius:16px;border:1px solid rgba(255,255,255,.10);background:rgba(0,0,0,.18)}
+.time{font-weight:800;color:rgba(232,238,252,.92)}
+.row1{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.course{font-weight:800}
+.badge{padding:6px 10px;border-radius:999px;border:1px solid transparent;font-size:12px;font-weight:800}
+.location{color:rgba(232,238,252,.72);margin-top:6px}
+.empty{color:rgba(232,238,252,.7);padding:20px;border:1px dashed rgba(255,255,255,.18);border-radius:16px;text-align:center}
+@media (max-width:720px){.slot{grid-template-columns:1fr}.time{margin-bottom:6px}}
+

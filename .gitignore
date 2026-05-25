@@ -1,0 +1,34 @@
+# dependencies
+node_modules/
+
+# production
+/dist/
+
+# misc
+.DS_Store
+.env
+.env.local
+.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.vscode/
+
+# logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# build
+*.tsbuildinfo
+
+# editor
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln

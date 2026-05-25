@@ -1,0 +1,19 @@
+.wrap{display:grid;gap:12px}
+.headerRow{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+.kicker{font-size:12px;color:rgba(232,238,252,.65);font-weight:800;letter-spacing:.2px;text-transform:uppercase}
+.title{font-size:18px;font-weight:900;margin-top:4px}
+.btn{padding:10px 12px;border-radius:12px;border:1px solid rgba(61,214,255,.35);background:rgba(61,214,255,.14);color:#c9f2ff;font-weight:900;cursor:pointer}
+.btn:hover{background:rgba(61,214,255,.18)}
+.list{display:grid;gap:10px}
+.item{padding:14px;border-radius:16px;border:1px solid rgba(255,255,255,.10);background:rgba(0,0,0,.18);display:grid;gap:8px}
+.itemTop{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.itemTitle{font-weight:900}
+.tag{padding:6px 10px;border-radius:999px;border:1px solid transparent;font-size:12px;font-weight:900}
+.meta{color:rgba(232,238,252,.75)}
+.bottom{display:flex;gap:10px;margin-top:6px}
+.smallBtn{padding:9px 12px;border-radius:12px;border:1px solid rgba(61,214,255,.35);background:rgba(61,214,255,.14);color:#c9f2ff;font-weight:900;cursor:pointer}
+.smallBtnGhost{padding:9px 12px;border-radius:12px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.05);color:rgba(232,238,252,.9);font-weight:900;cursor:pointer}
+.smallBtn:hover{background:rgba(61,214,255,.18)}
+.smallBtnGhost:hover{background:rgba(255,255,255,.08)}
+@media (max-width:720px){.headerRow{flex-direction:column}}
+
